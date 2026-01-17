@@ -38,3 +38,6 @@ class Student {
         System.out.println("Updated Marks: " + s.getMarks());
     }
 }
+
+//Encapsulation is the OOPS concept of wrapping data and methods into a single unit (class).
+//It hides internal data using private access and allows controlled access through public methods.

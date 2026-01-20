@@ -1,5 +1,5 @@
 class counter{
-    static int count=0;
+    static int count=0;   //static variable
 
     counter(){
         count++;

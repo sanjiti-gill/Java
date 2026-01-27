@@ -1,7 +1,7 @@
 class person{
     String name;
 
-    void display(){
+    void display(){                            //instance method;
         System.out.println("name: " + name);
     }
 
@@ -11,7 +11,7 @@ class person{
         person r=new person();
 
         p.name="sanjiti";
-        p.display();
+        p.display();   //instance method calling using object
 
         q.name="riya";
         q.display();

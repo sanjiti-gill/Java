@@ -1,3 +1,4 @@
+//static variable to assign prefix, and suffix with help of counter
 class Student {
     static String prefix = "24070122";  
     static int counter = 1;             // counter for last 3 digits
@@ -5,11 +6,10 @@ class Student {
     String username;
     String rollNo;
 
-    // Parameterized constructor
     Student(String username) {
         this.username = username;
-        this.rollNo = prefix + String.format("%03d", counter);
-        counter++;
+        this.rollNo = prefix + String.format("%03d", counter);  
+        counter++; //increments
     }
 
     void display() {

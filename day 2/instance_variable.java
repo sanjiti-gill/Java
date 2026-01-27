@@ -1,6 +1,6 @@
 class bank{
 
-    String acc_holder;
+    String acc_holder;   //instance variables
     int acc_no;
     int balance;
 
@@ -18,7 +18,7 @@ class bank{
 
     public static void main(String[] args){
 
-        bank b1= new bank("sanjiti", 101,1000);
+        bank b1= new bank("sanjiti", 101,1000);  //instance variable called from an object, each object has unique value
         bank b2= new bank("riya", 102, 2000);
         bank b3= new bank("ram", 103, 3000);
 

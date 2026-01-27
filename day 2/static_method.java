@@ -11,6 +11,6 @@ class CounterExample {
     public static void main(String[] args) {
         CounterExample.increment();
         CounterExample.increment();
-        CounterExample.increment();
+        CounterExample.increment();              //class used to call static method
     }
 }

@@ -42,10 +42,13 @@ class FixedDeposit extends SavingsAccount{
 
 class bank{
     public static void main(String[] args){
-        Account a = new Account(100);
-        System.out.println("Account interest: " + a.calculateInterest());
+        Account a=new SavingsAccount(10000);
+        System.out.println("SavingsAccount interest: " + a.calculateInterest()); //1) 400
 
-        Account acc = new FixedDeposit(60000);
-        System.out.println("FixedDeposit interest: " + acc.calculateInterest());
+        Account b= new SavingsAccount(60000);
+        System.out.println("Savings account interest: "+ b.calculateInterest());  //2) 2900
+
+        Account acc =new FixedDeposit(60000);
+        System.out.println("FixedDeposit interest: " + acc.calculateInterest());  //3) 4100
     }
 }
